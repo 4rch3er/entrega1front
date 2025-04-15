@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAÍCES DEL MAÑANA</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- ICONOS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <!-- Navbar-->
+  <nav class="navbar navbar-expand-sm bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo_1_128x128.png" alt="Logo Colegio" class="navbar-logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Institución
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Nuestro Colegio</a></li>
+              <li><a class="dropdown-item" href="#">Valores</a></li>
+              <li><a class="dropdown-item" href="#">Reglamentos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-disabled="true">Noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-disabled="true" href="#formulario">Contáctanos</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+          
+          <button class="btn btn-outline-success" type="button">
+            <img src="img/search_128x128.png" alt="Buscar" style="width: 20px; height: 20px;">
+
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Sección Inicio -->
+  <div id="inicio" class="container mt-5">
+    <h1 class="text-center">Bienvenidos al Colegio Raíces del Mañana</h1>
+    <p class="text-center">Un lugar donde la educación y los valores se unen para formar el futuro de Chile.</p>
+  </div>
+</body>
+</html>
+
+  <!-- Carrusel -->
+  <div id="carrusel" class="container mt-5">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/admision_.png" class="d-block w-100" alt="Imagen 1">
+            <button class="btn btn-primary btn-mas-info" onclick="window.location.href='#mas-info'">
+            Más Información
+          </button>
+        </div>
+        <div class="carousel-item">
+          <img src="img/seminario_.png" class="d-block w-100" alt="Imagen 2">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Seminario "Ideas en acción": Innovación para transformar comunidades educativas</h5>
+            <p>El seminario <strong>"Ideas en acción"</strong> tuvo como propósito impulsar la formulación, gestión y ejecución de proyectos innovadores en escuelas y liceos, con el fin de transformar las comunidades educativas a través de iniciativas que promuevan la creatividad y el desarrollo integral.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </div>
+<!-- list -->
+  <div id="benefits" class="container benefits-section d-flex justify-content-center align-items-center">
+    <div class="text-center w-100">
+        <h2 class="benefits-title mb-4">Beneficios Estudiantiles</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <ul class="benefits-list">
+                    <li>Programa Integración Escolar</li>
+                    <li>Orientación Vocacional</li>
+                    <li>Convivencia Escolar</li>
+                    <li>Psicólogo</li>
+                    <li>Fonoaudiólogo</li>
+                    <li>Enfermería</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="benefits-list">
+                    <li>Internado Femenino y Masculino</li>
+                    <li>Centro Innovación Tecnológica CIT</li>
+                    <li>Biblioteca (CRA)</li>
+                    <li>Laboratorio de Informática</li>
+                    <li>Gimnasio</li>
+                    <li>Auditorio</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="benefits-list">
+                    <li>Enseñanza Humanista - Científica</li>
+                    <li>Enseñanza Técnico Profesional</li>
+                    <li>Talleres Extraprogramáticos</li>
+                    <li>Alimentación (Junaeb)</li>
+                    <li>Locomoción Rural</li>
+                    <li>Uniforme</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+  <!-- Cards -->
+  <div id="cards" class="container mt-5">
+    <h2 class="text-center mt-5 mb-4">Grados Educativos</h2>
+    <div class="row">
+        <!-- Pre-Kinder a Kinder -->
+        <div class="col-md-4">
+            <div class="card grade-card">
+                <img src="img/pre_escolar_128.png" class="card-img-top" alt="Pre-Kinder a Kinder">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Pre-Kinder a Kinder</h5>
+                    <p class="card-text">Enseñanza inicial enfocada en el desarrollo integral y el aprendizaje lúdico.</p>
+                </div>
+            </div>
+        </div>
+        <!-- 1° a 8° Básico -->
+        <div class="col-md-4">
+            <div class="card grade-card">
+                <img src="img/escolar_128.png" class="card-img-top" alt="1° a 8° Básico">
+                <div class="card-body text-center">
+                    <h5 class="card-title">1° a 8° Básico</h5>
+                    <p class="card-text">Formación académica sólida con énfasis en valores y habilidades sociales.</p>
+                </div>
+            </div>
+        </div>
+        <!-- 1° a 4° Medio -->
+        <div class="col-md-4">
+            <div class="card grade-card">
+                <img src="img/media_128.png" class="card-img-top" alt="1° a 4° Medio">
+                <div class="card-body text-center">
+                    <h5 class="card-title">1° a 4° Medio</h5>
+                    <p class="card-text">Preparación para la vida universitaria y el mundo laboral con orientación vocacional.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- Formulario -->
+  <div id="formulario" class="container mt-5">
+    <h2 class="text-center mb-4">Contáctanos</h2>
+    <p class="text-center edit_p_form">¿Tienes alguna pregunta o simplemente quieres saludar? Nos encantaría saber de ti.</p>
+    <form>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre completo" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo Electrónico</label>
+        <input type="email" class="form-control" id="email" placeholder="ejemplo@correo.com" required>
+      </div>
+      <div class="mb-3">
+        <label for="asunto" class="form-label">Asunto</label>
+        <input type="text" class="form-control" id="asunto" placeholder="Asunto de tu mensaje" required>
+      </div>
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary btn-lg">
+          <i class="fas fa-paper-plane me-2"></i>Enviar Mensaje
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <footer id="footer" class="py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Columna 1: Información -->
+            <div class="col-md-3 text-center text-md-start">
+                <h5 class="footer-title">Información</h5>
+                <p>Ubicación<br>Pasaje Las Bandurrias #876<br>Temuco</p>
+                <p>Teléfono<br>+56 9 8762 3874</p>
+                <p>Correo Electrónico<br>
+                    <a href="mailto:colegio_raices@gmail.com">colegio_raices@gmail.com</a>
+                </p>
+                <div class="social-icons mt-3">
+                    <a href="#" class="me-3"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="#" class="me-3"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="#" class="me-3"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                </div>
+            </div>
+
+            <!-- Columna 2: Card -->
+            <div class="col-md-9">
+                <div class="card mb-3 card-rectangular">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/logo_1_128x128.png" class="img-fluid rounded-start" alt="Card Image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text">
+                                    "Raíces del Mañana" simboliza la conexión con la historia, la cultura y los valores fundamentales de Chile, 
+                                    mientras se forma a las nuevas generaciones para construir un futuro con conciencia, sabiduría y compromiso social.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright final -->
+    <div class="text-center py-3">
+        <p class="mb-0">Copyright © FMDA 2024 | Diseñado por .....</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+<!--FIN-->
